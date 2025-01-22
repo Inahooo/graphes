@@ -11,7 +11,7 @@ jobs:
     - name: Lancement graphviz
       run: ./graphviz1.sh g1
     - name: Upload Artefacts
-	  uses: actions/upload-artifact@v3
-	  with:
-	    name: Graphviz-outputs
+      uses: actions/upload-artifact@v3
+      with:
+        name: Graphviz-outputs
         path: "*.png"
